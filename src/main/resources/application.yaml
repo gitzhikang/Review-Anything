@@ -9,8 +9,8 @@ spring:
     name: hmdp
   datasource:
     driver-class-name: ${dp.spring.datasource.driver-class-name}
-    url: jdbc:mysql://127.0.0.1:3306/hmdp?useSSL=false&serverTimezone=UTC
-    username: ${dp.spring.datasource.username}}
+    url: ${dp.spring.datasource.url}
+    username: ${dp.spring.datasource.username}
     password: ${dp.spring.datasource.password}
   redis:
     host: ${dp.spring.redis.host}
