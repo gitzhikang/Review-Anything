@@ -15,7 +15,6 @@ spring:
   redis:
     host: ${dp.spring.redis.host}
     port: ${dp.spring.redis.port}
-    password: ${dp.spring.redis.password}
     lettuce:
       pool:
         max-active: 10
